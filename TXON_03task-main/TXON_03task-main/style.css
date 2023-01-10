@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+   background:linear-gradient(to bottom, #D6ED17FF 0%, #606060FF 100%);
+    
+}
+
+#main>h2{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    z-index: 12;
+    color: white;
+    transform: translate(-50%, 0);
+     width: 15%;
+     font-size: 30px;
+     font-weight: 700;
+     }
+    
+    
+      
+     #box{
+        width: 60%;
+        height: 70%;
+     /* background-color: rebeccapurple;  */
+        top: 20%;
+        left: 20%;
+        position: absolute;
+     }
+
+     #list{
+        width:50%;
+        height: 60px;
+       left:20%;
+        top:20px;
+        font-size: 2vw;
+        border-radius: 10px;
+        position:relative;
+         border: 2px solid black;
+        /* background-color: aqua; */
+     }
+      
+     #btn{
+        top:85%;
+        position: absolute;
+        width:13%;
+        height: 13%;
+        border-radius: 20px;
+        border:1px solid beige;
+        color: white;
+        font-size: 20px;
+        background-color: rgb(247, 4, 4);
+        font-weight: 600;
+        left:40%;
+       
+     }
+      
+       ::placeholder{
+        font-size: 30px;
+        opacity: 3px;
+        color: rgba(128, 128, 128, 0.195);
+        font-weight: 600;
+        padding-left: 30px;
+
+        letter-spacing: .5px;
+       }
+
+       #tasklist{
+        width:70%;
+        height:60%;
+        left:10%;
+        top:20%;
+        position: absolute;
+        border-radius: 10px;
+        background-color: rgb(225, 191, 196);
+       }
+       .task{
+        width:70%;
+        height: 17%;
+        position: relative;
+        left:20%;
+        margin-top: 10px;
+        color: black;
+        border-radius: 5px;
+        /* background-color: yellowgreen; */
+       }
+
+       #taskname{
+        font-size: 2vw;
+        position: relative;
+        top:32%;
+       }
+
+       .icon{
+        position: absolute;
+         left:105%;
+        width:15%;
+       }
